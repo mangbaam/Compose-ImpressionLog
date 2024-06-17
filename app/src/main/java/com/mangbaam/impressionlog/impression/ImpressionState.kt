@@ -60,8 +60,8 @@ data class ImpressionItem(
     val observeStartTime: () -> Long = { System.currentTimeMillis() },
 ) {
     companion object {
-        const val DEFAULT_DELAY_TIME_MS = 2000L
-        const val DEFAULT_RATIO = 0.5f
+        const val DEFAULT_DELAY_TIME_MS = 0L
+        const val DEFAULT_RATIO = 0.01f
     }
 }
 
